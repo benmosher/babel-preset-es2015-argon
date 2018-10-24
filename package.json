@@ -6,13 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0"
+  },
   "dependencies": {
-    "babel-plugin-transform-es2015-sticky-regex": "^6.3.13",
-    "babel-plugin-transform-es2015-unicode-regex": "^6.3.13",
-    "babel-plugin-transform-es2015-spread": "^6.3.13",
-    "babel-plugin-transform-es2015-parameters": "^6.6.0",
-    "babel-plugin-transform-es2015-destructuring": "^6.6.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.6.0"
+    "@babel/plugin-transform-destructuring": "^7.0.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.0.0",
+    "@babel/plugin-transform-parameters": "^7.0.0",
+    "@babel/plugin-transform-spread": "^7.0.0",
+    "@babel/plugin-transform-sticky-regex": "^7.0.0",
+    "@babel/plugin-transform-unicode-regex": "^7.0.0"
   },
   "author": "Ben Mosher <me@benmosher.com>",
   "license": "MIT"
